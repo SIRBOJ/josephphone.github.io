@@ -1,0 +1,265 @@
+# josephphone.github.io
+twin Phone app screen using html and css only
+<html>
+
+    <head>
+        <title>Phones</title>
+        
+        <!-- Normalize.css -->
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        
+        <!-- Custom CSS -->
+        <link rel="stylesheet" type="text/css" href="phone.css">
+        
+        <!-- Google icon -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        <!--Font Awesome JS -->
+      <script src="https://kit.fontawesome.com/71d233d232.js"></script>
+        
+        <!--Meta Description. For Search Engines.-->
+        <meta name="description" content="Bamidele Joseph CreditClan test project."> 
+        
+        <!--[if IE]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    
+    <body>
+        <main>
+            <section id="containerWrap" class="clear">
+                
+                <!-- First Phone Design -->
+                <section class="mainSections left">
+                    <div class="phone-shapes">
+                        
+                        <!--Phone Main Container Section -->
+                        <section class="container fromT">
+                            
+                            <!--First Phone Screen section -->
+                            <section class="bg-ash borderR Fphone-screen">
+                                <header id="first">
+                                    <nav class="batteryC">
+                                        <div class="rW">
+                                            <div class="column alignL repadT repad" style="padding-left: 5px">
+                                                <span class="fas fa-ellipsis-h"></span><span class="fas fa-ellipsis-h"></span>
+                                            </div>
+                                            <div class="column alignC repad font-4" style="padding-right: 10px;">
+                                                <span class=" L-space">9&#58;41</span><span> AM</span>
+                                            </div>
+                                            <div class="column alignR repad"><span class="fas fa-battery-full"></span></div>
+                                        </div>
+                                    </nav>
+
+                                    <nav>
+                                        <div class="container">
+                                            <div class="rW">
+                                                <div class="column alignL repadL">
+                                                    <a href="#" class="colorBlue">
+                                                        <span class="fas fa-align-left"></span>
+                                                    </a>
+                                                </div>
+                                                <div class="column repadL">
+                                                    <a href="#" class="colorBlack w-6 L-space"><span>Settings</span></a>
+                                                </div>
+                                                <div class="column repadR">
+                                                    <a href="#" class="colorBlue L-space">
+                                                        <span class="w-6" style="display: block; width: 80px">Sign Out</span>
+                                                    </a>
+                                                </div>
+                                             </div>
+                                          </div>
+                                    </nav>
+                                </header>
+                                
+                                <div class="pixDiv"></div>
+                                
+                                <section class="firstUl">
+                                    <h3 class="batteryC w-6 L-space">Account</h3>
+                                    <ul>
+                                        <li>
+                                            <a href="#" class="colorBlack clear L-space-1"><span class="spanBg1"><i class="fa fa-envelope" style="margin-top: 3px;"></i></span> <span class="padL Sp">Edit Login Details</span><span class="fa fa-angle-right right batteryC Sp"></span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="colorBlack clear L-space-1">
+                                                <span class="spanBg2">
+                                                    <i class="fas fa-map-marker-alt" style="margin-top: 3px;"></i>
+                                                </span>
+                                                <span class="padL Sp">Your Location</span>
+                                                <span class="batteryC Sp right"><i style="margin-right: 10px; font-style: normal;">New York</i> <i class="fa fa-angle-right"></i></span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="colorBlack clear L-space-1"><span class="spanBg3"><i class="fa fa-envelope" style="margin-top: 3px;"></i></span> <span class="padL Sp">Notifications</span><span class="right Switch clear" style="position: relative; top: 2px;"><span class="switch1 left"></span><span class="switch2 right"></span></span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="colorBlack clear L-space-1"><span class="spanBg4"><i class="fa fa-envelope" style="margin-top: 3px;"></i></span> <span class="padL Sp">Blocked Droners</span><span class="fa fa-angle-right right batteryC Sp"></span></a>
+                                        </li>
+                                    </ul>
+                                </section>
+                                
+                                <section class="firstUl" style="margin-top: -5px">
+                                    <h3 class="batteryC w-6 L-space">Other</h3>
+                                    <ul>
+                                        <li>
+                                            <a href="#" class="colorBlack clear L-space-1"><span class="spanBg5"><i class="fas fa-shield-alt" style="margin-top: 3px;"></i></span> <span class="padL Sp">Privacy and Policy</span><span class="fa fa-angle-right Sp right batteryC"></span></a>
+                                        </li>
+                                         <li>
+                                            <a href="#" class="colorBlack clear L-space-1"><span class="spanBg6"><i class="fa fa-file" style="margin-top: 3px;"></i></span> <span class="padL Sp">Terms</span><span class="fa fa-angle-right right batteryC Sp"></span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="colorBlack clear L-space-1"><span class="spanBg7"><i class="far fa-life-ring" style="margin-top: 3px;"></i></span> <span class="padL Sp">Helps &amp; Feedback</span><span class="fa fa-angle-right right Sp batteryC"></span></a>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </section> <!--End of First Phone Screen section -->
+                            
+                        </section> <!--End of Phone Main Container Section -->
+
+                    </div>
+                </section> <!-- End first Phone Design -->
+                
+                <section class="mainSections right">
+                    <div class="phone-shapes">
+                        <section class="container fromT">
+                            
+                            <!--Second Phone Screen section -->
+                            <section class="bg-ash borderR Fphone-screen">
+                                <header id="second">
+
+                                    <nav class="realNav">
+                                        <div class="container">
+                                            <div class="rW">
+                                                <div class="column alignL repadL">
+                                                    <a href="#" class="colorBlue">
+                                                        <span class="fa fa-angle-left"></span>
+                                                    </a>
+                                                </div>
+                                                <div class="column repadL shiftUp">
+                                                    <a href="#" class="w-6 L-space secondA">
+                                                        <h4 class="colorBlack">Bertha Mitchell</h4>
+                                                        <p class="batteryC">Photographer &amp; Model</p>
+                                                    </a>
+                                                </div>
+                                                <div class="column alignR">
+                                                    <a href="#" class="colorBlue" style="position: relative; right: -15px">
+                                                        <span class="w-6 fas fa-ellipsis-v"></span>
+                                                    </a>
+                                                </div>
+                                             </div>
+                                          </div>
+                                    </nav>
+                                </header>
+                                <section class="alignC sectDrone">
+                                    <div class="pixDiv2"></div>
+                                    <header class="drone">
+                                        <h3>DJI-Phantom 4 pro</h3>
+                                    </header>
+                                    <p class="batteryC font-4">01-12345-67890</p>
+                                </section>
+                                
+                                
+                                <section class="firstUl Button-screen" style="margin-top: 5px;">
+                                    
+                                    <div class="container">
+                                        <div class="rW">
+                                            <div class="column alignC repadL adjst repadR">
+                                                <a class="aColumn" href="#">
+                                                    <span class="batteryC Aspa" style="position: relative;top: 8px"><img src="images/icons8-drone-50.png" height="22px" width="22px" style="max-width: 100%; height: auto;"></span>
+                                                    <h4 class="colorBlack L-space">5 Hrs</h4>
+                                                    <p class="batteryC w-6 L-space">Flight Time</p>
+                                                </a>
+                                            </div>
+                                            <div class="column alignC repadL adjst repadR">
+                                                <a class="aColumn" href="#">
+                                                    <span class="batteryC Aspa fas fa-location-arrow" style="position: relative; top: 8px;"></span>
+                                                    <h4 class="colorBlack L-space">Yes</h4>
+                                                    <p class="batteryC w-6 L-space">Built-in GPS</p>
+                                                </a>
+                                            </div>
+                                            <div class="column alignC repadL adjst repadR">
+                                                <a class="aColumn" href="#">
+                                                    <i class="batteryC Aspa material-icons" style="position: relative;top: 8px">camera</i>
+                                                    <h4 class="colorBlack L-space">Yes</h4>
+                                                    <p class="batteryC w-6 L-space">Camera</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="rW">
+                                            <div class="column alignC repadL rePost adjst repadR">
+                                                <a class="aColumn" href="#">
+                                                    <span class="batteryC fas fa-camera Aspa" style="position: relative;top: 8px"></span>
+                                                    <h4 class="colorBlack L-space">DSRL</h4>
+                                                    <p class="batteryC w-6 L-space">Cam Type</p>
+                                                </a>
+                                            </div>
+                                            <div class="column alignC btnCol rePost adjst repadL repadR">
+                                                <a class="aColumn" href="#">
+                                                    <span class="batteryC Aspa fas fa-database" style="position: relative;top: 8px"></span>
+                                                    <h4 class="colorBlack L-space">32 GB</h4>
+                                                    <p class="batteryC w-6 L-space">Storage</p>
+                                                </a>
+                                            </div>
+                                            <div class="column alignC rePost adjst repadL repadR">
+                                                <a class="aColumn" href="#">
+                                                    <span class="batteryC Aspa fas fa-sd-card" style="position: relative;top: 8px"></span>
+                                                    <h4 class="colorBlack L-space">SD</h4>
+                                                    <p class="batteryC w-6 L-space">Memory</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="rW">
+                                            <div class="column alignC repadL adjst rePost repadR">
+                                                <a class="aColumn" href="#">
+                                                    <span class="batteryC Aspa fa fa-walking" style="position: relative;top: 8px"></span>
+                                                    <h4 class="colorBlack L-space">Yes</h4>
+                                                    <p class="batteryC w-6 L-space">Flight Time</p>
+                                                </a>
+                                            </div>
+                                            <div class="column alignC btnCol rePost adjst repadL repadR">
+                                                <a class="aColumn" href="#">
+                                                    <span class="batteryC Aspa fas fa-eye" style="position: relative;top: 8px"></span>
+                                                    <h4 class="colorBlack L-space">n/a</h4>
+                                                    <p class="batteryC w-6 L-space">Flight Time</p>
+                                                </a>
+                                            </div>
+                                            <div class="column alignC rePost repadL adjst repadR">
+                                                <a class="aColumn" href="#">
+                                                    <span class="batteryC Aspa far fa-life-ring" style="position: relative;top: 8px"></span>
+                                                    <h4 class="colorBlack L-space">Yes</h4>
+                                                    <p class="batteryC w-6 L-space">Flight Time</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                    <section class="fut" style="background-color: white; height: 30px">
+                                        <div class="rW">
+                                            <div class="column alignC repad" style="padding-left: 20px;">
+                                                <a href="#" class="batteryC">General</a>
+                                            </div>
+                                            <div class="column alignC repadR" style="padding-right: 10px;">
+                                                <a href="#" class="batteryC">Experience</a>
+                                            </div>
+                                            <div class="column alignC repadL repadR" style="border-top: 2px solid #77baff; color: ">
+                                                <a href="#" style="color: #77baff; display: block;">Drone</a>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </section>
+                            </section> <!--End of First Phone Screen section -->
+                            
+                        </section>
+
+                    </div>
+                </section>
+                
+            </section>
+        </main>
+        
+    </body>
+    
+</html>
+
