@@ -1,0 +1,465 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 400px;
+}
+
+main {
+    width: 800px;
+    height: 600px;
+    background: rgb(230, 230, 230) !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* rgb(230, 230, 230)*/
+
+#containerWrap {
+    width: 624px;
+    height: 530px;
+    position: relative;
+    top: 70px;
+    margin: auto;
+}
+
+.mainSections {
+    width: 290px;
+    height: 530px;
+    position: relative;
+}
+
+.phone-shapes {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: 0px -2px 4px 2px rgb(220, 220, 220);
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear::after, .rW::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+    width: 33.33%;
+    position: relative;
+}
+
+.alignL {
+    text-align: left;
+}
+
+.alignR {
+    text-align: right;
+}
+
+.alignC {
+    text-align: center;
+}
+
+.column {
+    width: 33%;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.bg-ash {
+    background-color: #f5f7f9 !important;
+}
+
+.fromT {
+    position: relative;
+    top: 72px;
+}
+
+.borderR {
+    border: 1px solid rgb(230, 230, 230) !important;
+}
+
+header nav div.rW div.repad {
+    padding: 0px;
+}
+
+.repadR {
+    padding-right: 0px;
+}
+
+.repadL {
+    padding-left: 0px;
+}
+
+.repadT {
+    padding-top: 0px
+}
+
+.repadB {
+    padding-bottom: 0px;
+}
+
+.colorBlack {
+    color: black;
+}
+
+.colorBlue {
+    color: #55a7ff;
+}
+
+.w-6 {
+    font-weight: 600;
+}
+
+.L-space {
+    letter-spacing: -0.5px;
+}
+
+nav a, .firstUl ul li a {
+    text-decoration: none;
+}
+
+nav a, .firstUl ul li a:hover {
+    opacity: 0.5;
+}
+
+nav a, .firstUl ul li a:active {
+    color: rgb(230, 230, 230);
+}
+
+.batteryC {
+    color: #cccccc;
+}
+
+.font-4 {
+    font-size: 13.5px;
+}
+
+header#first {
+    background: white;
+    max-width: 290px;
+    height: 120px;
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%;
+}
+
+.pixDiv {
+    height: 80px;
+    width: 80px;
+    margin: auto;
+    background: url('images/Test%20image.jpg') no-repeat 50% 0%;
+    background-size: cover;
+    border-radius: 100%;
+    box-shadow: rgb(255, 255, 255) 0px 3px 4px 2px, rgba(255, 255, 255, 0.5) 0px -3px 4px;
+    position: relative;
+    top: -48px;
+}
+
+section h3 {
+    padding-left: 15px;
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.firstUl {
+    margin-top: -40px;
+}
+
+.firstUl ul {
+    list-style: none;
+    background-color: white;
+    padding: 0px;
+    margin-top: 0px;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: sans-serif;
+    display: block;
+    width: 100%;
+}
+
+.firstUl ul li {
+    padding: 0px 15px;
+    border-bottom: 1px solid rgb(230, 230, 230) !important;
+}
+
+.firstUl ul li a {
+    padding: 4px 0px;
+    display: block;
+    top: 0px;
+    position: relative;
+}
+
+.Sp {
+    position: relative;
+    top: 4px;
+}
+
+.padL {
+    padding-left: 15px;
+}
+
+.L-space-1 {
+    letter-spacing: -0.5px;
+}
+
+.spanBg1 {
+    background-color: #54e78d;
+    color: white;
+    width: 22px;
+    height: 22px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    float: left;
+    border-radius: 4px;
+}
+
+.spanBg2 {
+    background-color: #57dce7;
+    color: white;
+    color: white;
+    width: 22px;
+    height: 22px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    float: left;
+    border-radius: 4px;
+}
+
+.spanBg3 {
+    background-color: #f3b9ef;
+    color: white;
+    color: white;
+    width: 22px;
+    height: 22px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    float: left;
+    border-radius: 4px;
+}
+
+.spanBg4 {
+    background-color: #ffa9a1;
+    color: white;
+    color: white;
+    width: 22px;
+    height: 22px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    float: left;
+    border-radius: 4px;
+}
+
+.spanBg5 {
+    background-color: #b4afff;
+    color: white;
+    color: white;
+    width: 22px;
+    height: 22px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    float: left;
+    border-radius: 4px;
+}
+
+.spanBg6 {
+    background-color: #c7c7c7;
+    color: white;
+    color: white;
+    width: 22px;
+    height: 22px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    float: left;
+    border-radius: 4px;
+}
+
+.spanBg7 {
+    background-color: #fce297;
+    color: white;
+    color: white;
+    width: 22px;
+    height: 22px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    float: left;
+    border-radius: 4px;
+}
+
+span.Switch {
+    display: block;
+}
+
+span.switch1, span.switch2 {
+    display: block;
+    position: relative;
+}
+
+span.switch1 {
+    background-color: #57e78f;
+    width: 32px;
+    height: 18px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-top-right-radius: 60px;
+    right: -19px;
+}
+
+span.switch2 {
+    background-color: white;
+    border-radius: 100%;
+    width: 18px;
+    height: 18px;
+}
+
+/*Second Phone */
+.pixDiv2 {
+    height: 80px;
+    width: 80px;
+    margin: auto;
+    background: url('images/images.jpg') no-repeat 50% 0%;
+    background-size: cover;
+    border-radius: 100%;
+    position: relative;
+    margin-top: -25px;
+    box-sizing: border-box;
+}
+
+.realNav {
+    padding-top: 10px;
+}
+
+.shiftUp {
+    top: -17px;
+    margin-top: -5px;
+}
+
+a.secondA {
+    display: block;
+    max-width: 100%;
+}
+
+a.secondA h4{
+    width: 130px;
+    position: relative;
+    left: -18px;
+    font-size: 14px;
+}
+
+a.secondA p {
+    width: 200px;
+    position: relative;
+    margin-top: -18px;
+    left: -30px;
+    font-size: 12px;
+}
+
+header.drone h3 {
+    position: relative;
+    top: 15px;
+    font-size: 14px;
+    margin-top: -6px;
+}
+
+.sectDrone {
+    position: relative;
+    bottom: -20px;
+}
+
+.sectDrone p {
+    position: relative;
+    right: -10px;
+    font-size: 11px;
+    top: 3px;
+}
+
+.aColumn {
+    display: block;
+    text-decoration: none;
+    background-color: white;
+    margin: auto 3px;
+}
+
+.aColumn:hover {
+    opacity: 0.75;
+}
+
+.aColumn:active {
+    position: relative;
+    top: 1px;
+}
+
+.aColumn .Aspa {
+    width: 20px;
+    height: 20px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-size: 17px;
+}
+
+
+.aColumn h4 {
+    font-size: 14px;
+    position: relative;
+    top: -5px
+}
+
+.aColumn p {
+    font-size: 11px;
+    display: block;
+    width: 80px;
+    margin-top: -20px;
+    position: relative;
+    top: -5px;
+    left: -5px;
+}
+
+.rePost {
+    margin-top: -27px;
+    
+}
+
+.adjst {
+    position: relative;
+    bottom: -20px;
+}
+
+.fut a {
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 600;
+}
